@@ -1,0 +1,2 @@
+1 本仓库作为提交安卓实验课的作业的平台 
+2 MyApplication01为第一次作业，MyApplication02为第二次作业，以此类推
