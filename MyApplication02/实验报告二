@@ -1,0 +1,17 @@
+第二次作业，四种启动模式
+
+1.standard模式
+standard`模式即默认模式，当activity为此种模式时，开启这个activity时不会进行任何检查，直接将新开启的activity入栈并跳转页面；
+https://github.com/xiaogangwei/2018118104_Android/blob/master/MyApplication02/%E6%88%AA%E5%9B%BE/standard.jpg
+
+2.singleTop模式
+当使用这个模式时，开启这个activity会对当前栈顶activity进行检查，如果栈顶activity与待开启的activity一致（或者说为同一个activity），那么将复用栈顶acticity，而不会启动新的。
+https://github.com/xiaogangwei/2018118104_Android/blob/master/MyApplication02/%E6%88%AA%E5%9B%BE/singletop.jpg
+
+3.singleTask模式
+每次启动该模式时系统会首先在返回栈中检查是否存在该活动的实例，若发现存在则直接使用该实例，如果没有发现则会创建一个新的实例。
+https://github.com/xiaogangwei/2018118104_Android/blob/master/MyApplication02/%E6%88%AA%E5%9B%BE/singletask.jpg
+
+4.当activity设定为此种模式时，那么系统将会为这个activity单独开启一个栈，在这个栈中只能存在这一个activity，并且对于一个activity这种栈只能开启一个，重复开启页面时会复用之前的activity。
+在此种模式下，由于存在至少两个栈，所以用户按返回键依次退出页面时，需要考虑栈的次序问题。
+https://github.com/xiaogangwei/2018118104_Android/blob/master/MyApplication02/%E6%88%AA%E5%9B%BE/singelinstance%20.jpg
