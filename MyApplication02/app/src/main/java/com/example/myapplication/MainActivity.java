@@ -1,4 +1,4 @@
-package com.example.myapplication02;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,"点击",Toast.LENGTH_SHORT).show();
                         Intent intent=new Intent(MainActivity.this,MainActivity.class);
                         startActivity(intent); break;
-
                 }
 
             }
