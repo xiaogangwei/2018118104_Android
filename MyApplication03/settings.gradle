@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "UIWidgetTest"
+rootProject.name = "UIWidgeTest"
