@@ -12,3 +12,11 @@ MyApplication02:
 实验2项目根目录地址：
 https://github.com/xiaogangwei/2018118104_Android/tree/master/MyApplication02
 
+MyApplication03:
+
+UI
+
+实验3项目根目录地址：
+
+https://github.com/xiaogangwei/2018118104_Android/tree/master/MyApplication03
+
