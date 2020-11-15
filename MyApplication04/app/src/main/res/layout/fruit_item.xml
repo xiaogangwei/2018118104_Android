@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_height="wrap_content"
-    android:layout_width="100dp">
+    android:layout_width="match_parent"
+    android:layout_margin="5dp" >
 
     <ImageView
         android:id="@+id/fruit_image"
@@ -15,7 +16,7 @@
         android:id="@+id/fruit_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="left"
         android:layout_marginLeft="10dp"
         />
 

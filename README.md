@@ -20,3 +20,10 @@ UI
 
 https://github.com/xiaogangwei/2018118104_Android/tree/master/MyApplication03
 
+MyApplication04:
+
+RecyclerView
+
+实验4项目根目录地址：
+
+https://github.com/xiaogangwei/2018118104_Android/tree/master/MyApplication04
